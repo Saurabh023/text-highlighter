@@ -4,4 +4,4 @@ Section1 highlights each word to white from dark grey in a black background as w
 
 Section2 contains a dynamic scrollbar which fills with blue color as we scroll down and vice versa.
 
-Link to the project - https://646a6ccae49d323e7a6a4b7a--zippy-ganache-d8adb9.netlify.app/
+Link to the project - https://646e5d991d3f4a0b7dc8bdbd--zippy-ganache-d8adb9.netlify.app/
