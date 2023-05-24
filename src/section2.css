@@ -1,0 +1,83 @@
+* {
+    font-family: Helvetica;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    height: 300vh;
+    display: flex;
+    background-color: black;
+}
+
+.container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100vw;
+    color: white;
+}
+
+.container .static-content {
+    width: 45%;
+}
+.container .dynamic-content {
+    width: 45%;
+}
+
+h2 {
+    font-size: 6em;
+}
+
+#fancy-text {
+    display: flex;
+    width: 70vw;
+    flex-direction: row;
+    height: 60vh;
+    flex-wrap: wrap;
+}
+
+#fancy-text span {
+    margin-left: 0.2em;
+    font-size: 4em;
+    margin-top: -10px;
+    font-weight: bold;
+    color: #666;
+}
+
+#fancy-text span.highlight {
+    color: white;
+}
+
+.fancy-scrollbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fancy-scrollbar small{
+    margin: 2px 0;
+    color: #666;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.animated-scrollbar {
+    height: 80vh;
+    width: 5px;
+    border-radius: 5px;
+    background-color: #333;
+}
+
+.animated-scrollbar__thumb {
+    height: 1%;
+    width: 5px;
+    border-radius: 5px;
+    background-color: rgb(64, 131, 239);
+    /* box-shadow: 0 1px 1px black; */
+}
